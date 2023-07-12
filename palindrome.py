@@ -34,6 +34,7 @@ class Solution:
             #TODO: Write code below to return a boolean value with the solution to the prompt
             if len(s) > 6 and s == s[::-1]:
                  return True
+            return False
 
 def main():
     tc1 = Solution()
